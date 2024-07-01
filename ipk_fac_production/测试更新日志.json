@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "version": "1.0.82",
+    "date": "2021-07-12",
+    "item": [
+      "English:",
+      "`TERMINUS` Tag read and write supported.",
+      "The warning audio of main page disable.",
+      "Optimized for t55xx sniffing, invalid keys will now be displayed.",
+      "Fix the problem that t55xx sniff could not be forced to stop.",
+      "Simplify some English button text.",
+
+      "中文：",
+      "新增一种可复制卡，特斯联。",
+      "主页面单击电源键的报错音被禁用了",
+      "优化T55XX嗅探，新增显示所有秘钥，包含无效秘钥，可方便调整嗅探时机。",
+      "修复T55XX嗅探无法强制结束的问题。",
+      "简化某些英文按钮文本"
+    ]
+  },
+  {
+    "id": 2,
+    "version": "1.0.81",
+    "date": "2021-07-01",
+    "item": [
+      "English:",
+      "The key is also saved when reading the M1 magic tag(gen1a).",
+      "The problem of too long countdown of M1 check keys is optimized",
+      "Solve the problem of repeated cracking of the same reader and the same keys in a region.",
+      "Add a egg, and you can find it on the about page.",
+      "中文：",
+      "在读取UID后门卡时也进行秘钥保存。",
+      "优化了M1卡检查已知秘钥时，倒计时过长的问题",
+      "现在破解成功的卡都会往用户秘钥文件里面添加，默认会进行扫描，增加了全加密解卡的成功率。",
+      "去吧，我们有个彩蛋等你搜索，在关于界面。"
+    ]
+  },
+  {
+    "id": 3,
+    "version": "1.0.8",
+    "date": "2021-06-29",
+    "item": [
+      "Some bugs fixed.",
+      "Some UI is optimized."
+    ]
+  },
+  {
+    "id": 4,
+    "version": "1.0.7",
+    "date": "2021-06-15",
+    "item": [
+      "T5577 auto sniff keys added.(Old 125k Sniff)",
+      "FDX tag simulation bug fixed.",
+      "Lf reader crash bug fixed.",
+      "Other bugs fixed..."
+    ]
+  },
+  {
+    "id": 5,
+    "version": "1.0.6",
+    "date": "2020-09-11",
+    "item": [
+      "Some bugs fixed."
+    ]
+  },
+  {
+    "id": 6,
+    "version": "1.0.5",
+    "date": "2020-05-11",
+    "item": [
+      "Sniff keys lost bug fixed.",
+      "IOprox special uid crash bug fixed.",
+      "Pyramid fc unknow crash bug fixed."
+    ]
+  },
+  {
+    "id": 7,
+    "version": "1.0.4",
+    "date": "2020-03-11",
+    "item": [
+      "iClass reader bug fixed.",
+      "Mifare reader enhanced.",
+      "PC-MODE connection dead bug fixed.",
+      "Read some tag have timer."
+    ]
+  },
+  {
+    "id": 8,
+    "version": "1.0.3",
+    "date": "2020-02-11",
+    "item": [
+      "Auto mass storage fix tool added.",
+      "Auto mass storage clear tool added",
+      "Some reader bug fixed."
+    ]
+  },
+  {
+    "id": 9,
+    "version": "1.0.2",
+    "date": "2019-12-01",
+    "item": [
+      "Added some small games(Easter egg).",
+      "Volume control implement.",
+      "Some reader bug fixed."
+    ]
+  },
+  {
+    "id": 10,
+    "version": "1.0.1",
+    "date": "2019-10-24",
+    "item": [
+      "PC-MODE implement.",
+      "Backlight implement."
+    ]
+  },
+  {
+    "id": 11,
+    "version": "1.0.0",
+    "date": "2019-09-09",
+    "item": [
+      "Tag Reader implement.",
+      "Tag Sniff implement.",
+      "Tag simulation implement.",
+      "Project rebuild."
+    ]
+  }
+]
